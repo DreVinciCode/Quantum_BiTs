@@ -10,4 +10,13 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadLobbyScene()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
+
+    public void LoadHomeScene()
+    {
+        SceneManager.LoadScene("Home");
+    }
 }
